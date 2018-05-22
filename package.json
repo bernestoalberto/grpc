@@ -1,0 +1,19 @@
+{
+  "name": "start",
+  "version": "1.0.0",
+  "description": "grpc nodejs",
+  "main": "server.js",
+  "dependencies": {
+    "events": "^2.0.0",
+    "grpc": "^1.11.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "grpc"
+  ],
+  "author": "bernestoalberto",
+  "license": "ISC"
+}

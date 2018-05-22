@@ -1,0 +1,25 @@
+git pull
+Merge conflicts resolving:
+
+git push
+If you confirm that your new code is all fine you can use:
+
+git push -f origin master.
+Where -f stands for "force commit".
+
+
+Setup remote repository:
+
+    ssh git@example.com
+    mkdir my_project.git
+    cd my_project.git
+    git init --bare
+
+On local machine:
+
+    cd my_project
+    git init
+    git add *
+    git commit -m "Initial commit"
+    git remote add origin example.com:my_project.git
+    git push -u origin master
